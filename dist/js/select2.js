@@ -1,5 +1,5 @@
 /*!
- * Select2 4.0.13
+ * Select2 4.0.13b Built from branch https://github.com/LawRulerCRM/select2/tree/4.0.13b
  * https://select2.github.io
  *
  * Released under the MIT license
@@ -1533,8 +1533,9 @@ S2.define('select2/selection/base',[
         }
 
         var $element = Utils.GetData(this, 'element');
-
-        $element.select2('close');
+		if($element) {
+			$element.select2('close');
+		}
       });
     });
   };

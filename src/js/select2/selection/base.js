@@ -130,8 +130,9 @@ define([
         }
 
         var $element = Utils.GetData(this, 'element');
-
-        $element.select2('close');
+		if($element) {
+			$element.select2('close');
+		}
       });
     });
   };

@@ -1,5 +1,5 @@
 /*!
- * Select2 <%= package.version %>
+ * Select2 <%= package.version %> <%= package.versionComment %>
  * https://select2.github.io
  *
  * Released under the MIT license

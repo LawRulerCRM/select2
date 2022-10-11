@@ -39,7 +39,8 @@
     "src",
     "dist"
   ],
-  "version": "4.0.13",
+  "version": "4.0.13b",
+  "versionComment": "Built from branch https://github.com/LawRulerCRM/select2/tree/4.0.13b",
   "jspm": {
     "main": "js/select2",
     "directories": {
